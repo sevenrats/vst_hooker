@@ -1,0 +1,92 @@
+########################################
+# Build directories
+########################################
+build/
+cmake-build-*/
+out/
+
+########################################
+# CMake generated files
+########################################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+########################################
+# JUCE build artefacts
+########################################
+*_artefacts/
+*.vst3
+*.component
+*.lv2
+*.clap
+*.a
+*.so
+*.dylib
+*.dll
+
+########################################
+# JUCE Projucer / IDE files
+########################################
+*.jucer
+*.jucer.*
+
+########################################
+# macOS junk (for later pivot)
+########################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+########################################
+# Linux editor / desktop junk
+########################################
+*~
+.nfs*
+.Trash-*
+.fuse_hidden*
+.directory
+
+########################################
+# IDE / Editor files
+########################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.user.*
+*.sublime-workspace
+*.sublime-project
+
+########################################
+# Object / temp files
+########################################
+*.o
+*.obj
+*.lo
+*.la
+*.tmp
+*.log
+*.ilk
+*.pdb
+
+########################################
+# Python artifacts (scripts live outside repo anyway)
+########################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+########################################
+# User config (runtime, NOT source)
+########################################
+PythonHooker.conf
+event.conf
+scripts/
